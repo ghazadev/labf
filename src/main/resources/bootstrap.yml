@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: myapp
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: configuser
+      password: configpass
+      name: myapp
+      profile: dev
